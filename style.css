@@ -85,7 +85,7 @@ nav  ul li a{
     text-transform: uppercase;
 }
 
-a.active,a:hover{
+nav a.active,a:hover{
     background: #6a8904;
     transition: .5s;
 }
@@ -321,23 +321,10 @@ nav  ul li a:hover{
 #course .courses .details{
     padding: 15px 15px 0 15px;
 }
-#course .courses .details i{
-    color: #FDC938;
-    font-size: .9rem;
+#course .courses .details a {
+    text-decoration: none;
 }
 
-#course .courses .cost{
-    background-color: rgb(74, 74, 136);
-    color: #fff;
-    line-height: 70px;
-    width: 70px;
-    height: 70px;
-    text-align: center;
-    border-radius: 50%;
-    position: absolute;
-    right: 50px;
-    bottom: 150px;
-}
 /*footer*/
 .container{
 	max-width: 1170px;

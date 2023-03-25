@@ -34,7 +34,8 @@
     box-sizing: border-box;
 }
 .teams:hover{
-    background: linear-gradient(358deg, #bdf396 0%, rgb(25 242 116) 100%);
+    /*background: linear-gradient(358deg, #bdf396 0%, rgb(25 242 116) 100%);*/
+    background: #0be2106b;
     border-radius: 12px;
 }
 .teams img{
